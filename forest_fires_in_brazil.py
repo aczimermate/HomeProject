@@ -10,3 +10,4 @@ df = pd.read_csv(file, encoding="latin1")
 # Create some plots to visualize the dataset
 df.plot(kind="scatter", x="year", y="number")
 
+print(df.head())
